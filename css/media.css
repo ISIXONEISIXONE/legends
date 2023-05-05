@@ -1,0 +1,240 @@
+@media (max-width: 1230px) {
+  .nav-list {
+    display: none;
+  }
+
+  .nav-button {
+    display: flex;
+    align-items: flex-end;
+    z-index: 9;
+  }
+
+  .nav.open .nav-list {
+    display: flex;
+    padding: 72px 30px;
+    flex-direction: column;
+    row-gap: 30px;
+    position: fixed;
+    align-items: flex-start;
+    font-size: 34px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url('./img/stacked-waves-haikei.svg');
+  }
+
+  .logo {
+    font-size: 46px;
+  }
+
+  .header-nav {
+    display: flex;
+    margin-bottom: 80px;
+    gap: 20px;
+  }
+
+  .header {
+    padding-bottom: 60px;
+  }
+  .header-row {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 60px;
+    text-align: center;
+  }
+  .header-row h1 {
+    padding-bottom: 20px;
+    font-size: 24px;
+  }
+  .header-row p {
+    font-size: 18px;
+  }
+
+  .card {
+    grid-template-rows: 1fr 4fr 1fr;
+  }
+
+  .header-card {
+    font-size: 26px;
+  }
+
+  .description {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .description p {
+    padding-bottom: 12px;
+  }
+
+  .test-button {
+    font-size: 20px;
+    align-self: flex-end;
+  }
+
+  .header-table {
+    font-size: 36px;
+    padding-left: 30px;
+  }
+
+  .legend-table {
+    display: grid;
+  }
+
+  .list1 {
+    font-size: 18px;
+    padding-left: 30px;
+  }
+
+  .legend-list1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    row-gap: 30px;
+    align-items: center;
+  }
+
+  .legend-list2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    row-gap: 30px;
+    align-items: center;
+  }
+
+  .list2 {
+    font-size: 18px;
+    padding-right: 30px;
+  }
+
+  .instruction {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .gridblock {
+    padding: 30px;
+    gap: 10px;
+  }
+
+  .name {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+
+  .busy {
+    font-size: 10px;
+  }
+
+  .infoblock {
+    font-size: 40px;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  svg {
+    width: 38px;
+  }
+
+  .contacts-title {
+    font-size: 26px;
+  }
+
+  .allq {
+    font-size: 20px;
+  }
+
+  .allrigts {
+    font-size: 12px;
+  }
+
+  .contacts-button-tg {
+    max-height: 20px;
+    font-size: 18px;
+  }
+
+  .contacts-button-mail {
+    max-height: 20px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .nav.open .nav-list {
+    padding: 90px 50px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    font-size: 32px;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .nav.open .nav-list {
+    padding: 60px 50px;
+    font-size: 32px;
+  }
+
+  .header-content p {
+    font-size: 14px;
+  }
+
+  .header-row h1 {
+    font-size: 16px;
+  }
+
+  .header-card {
+    font-size: 16px;
+  }
+  .description {
+    font-size: 14px;
+  }
+
+  .header-table {
+    font-size: 24px;
+  }
+
+  .instruction {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .list1,
+  .list2 {
+    font-size: 14px;
+  }
+
+  .gridblock {
+    padding: 10px;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 120px);
+  }
+
+  .name {
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+
+  .busy {
+    font-size: 8px;
+  }
+
+  .infoblock {
+    font-size: 26px;
+    text-align: center;
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .header {
+    padding-bottom: 10px;
+  }
+  .logo {
+    font-size: 24px;
+    padding-right: 10px;
+  }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link
+      rel="shortcut icon"
+      href="./css/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/maintest.css" />
+    <link rel="stylesheet" href="./css/maintestmedia.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;600&family=Comfortaa:wght@400;600&family=Unbounded:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="content">
+      <div class="container">
+        <div class="testblock">
+          <header class="header">
+            <div class="container">
+              <div class="header-nav">
+                <a href="#!" class="logo">Легендарный край</a>
+                <nav id="nav" class="nav">
+                  <ul class="nav-list">
+                    <li class="nav-item">
+                      <a href="./index.html" class="nav-link">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="./legendtest.html" class="nav-link-test">Тест</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="./leglist.html" class="nav-link">Все легенды</a>
+                    </li>
+                  </ul>
+                  <button id="nav-btn" class="nav-button">
+                    <img
+                      id="nav-btn-img"
+                      src="./css/img/menu_FILL0_wght400_GRAD0_opsz48.svg"
+                      alt="123"
+                    />
+                  </button>
+                </nav>
+              </div>
+            </div>
+          </header>
+          <div class="quiz" id="quiz">
+            <div class="quiz-header" id="quiz-header">
+              //Заголовок вопроса
+              <h2 class="title">Загружаем вопрос...</h2>
+
+              //Результаты викторины
+              <h2 class="title">%title%</h2>
+              <h3 class="archetypedesc">%archetypedesc%</h3>
+            </div>
+
+            <ul class="quiz-list" id="list">
+              <li>
+                <label for="answer">
+                  <input
+                    type="radio"
+                    class="answer"
+                    name="answer"
+                    id="answer"
+                  />
+                  <span class="custom-radio"></span>
+                  <span>Ответ</span>
+                </label>
+              </li>
+            </ul>
+
+            <button class="quiz-submit submit" id="submit">Ответить</button>
+          </div>
+          <script src="./js/main.js"></script>
+          <script src="./js/test.js"></script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

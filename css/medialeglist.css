@@ -1,0 +1,88 @@
+@media (max-width: 1230px) {
+  .nav-list {
+    display: none;
+  }
+
+  .nav-button {
+    display: flex;
+    align-items: flex-end;
+    z-index: 9;
+  }
+
+  .nav.open .nav-list {
+    display: flex;
+    padding: 72px 30px;
+    flex-direction: column;
+    row-gap: 30px;
+    position: fixed;
+    align-items: flex-start;
+    font-size: 34px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f2eff6;
+  }
+
+  .logo {
+    font-size: 46px;
+  }
+
+  .header-nav {
+    margin-bottom: 80px;
+  }
+
+  .header {
+    padding-bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    font-size: 32px;
+    margin-right: 20px;
+  }
+
+  .header {
+    padding-bottom: 30px;
+  }
+
+  .nav.open .nav-list {
+    padding: 72px 50px;
+    font-size: 28px;
+  }
+
+  .allinfo,
+  .allinfo-kolivan {
+    gap: 10px;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'title'
+      'art'
+      'art'
+      'audio'
+      'textblock'
+      'textblock'
+      'textblock';
+    grid-template-rows: repeat(7, 180px);
+  }
+
+  .audio {
+    justify-items: center;
+  }
+
+  .title,
+  .title-kolivan {
+    text-align: center;
+  }
+
+  .textblock {
+    font-size: 14px;
+  }
+
+  .kolivan,
+  .nevesta {
+    padding-top: 30px;
+  }
+}
